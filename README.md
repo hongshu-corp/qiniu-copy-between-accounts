@@ -1,5 +1,7 @@
+## 下载qshell sdk
+[下载地址]( https://developer.qiniu.com/kodo/tools/1302/qshell)
 
-* 修改qcopy.sh内容
+## 修改qcopy.sh
 
 ```sh
 ak_src=source-account-ak
@@ -10,6 +12,11 @@ ak_dest=dest-account-ak
 sk_dest=dest-account-sk
 bucket_dest=dest-bucket
 ```
-* chmod +x qcopy.sh
+```sh
+chmod +x qcopy.sh
+```
 
-* run
+## 运行
+```sh
+./qcopy.sh
+```
